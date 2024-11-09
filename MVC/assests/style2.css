@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: max-content;
+    height: min-content;
+}
+
+
+.header {
+    border-bottom: 10px solid rgba(0, 227, 201, 1);
+    padding: 18px;
+    color: white;
+    align-items: center;
+}
+
+.header .container {
+    margin: 0;
+    max-width: 100%;
+    display: flex;
+    height: 2000px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .user {
+    display: flex;
+    align-items: center;
+}
+
+.imgs img{
+    height:50%;
+    width: 50%;
+    margin: auto;
+}
+.header .user .username  p{
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    margin-right: 10px;
+    color: rgba(30, 30, 30, 1);
+}
+
+.header .user .username {
+    margin-right: 10px;
+}
+
+.header .icon-menu i{
+    width: 30px;
+    height: 30px;
+    color: rgba(0, 227, 201, 1);
+    font-size: 30px;
+}
+
+.imgs{
+    width: 70%;
+    height: 70%;
+}
+
+.header .icon-menu{
+    justify-content: space-between;
+    display: flex;
+    width: 35%;
+    height: auto;
+}
+
+
+.header .user .profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(30, 30, 30, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.content {
+    height: 85vh;
+    width: auto;
+    display: flex;
+
+}
+
+.sidebar {
+    width: 200px;
+    border-right:4px solid  rgb(0, 0, 0) ;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.main {
+    flex: 1;
+    background-color: rgba(52, 58, 64, 0.05);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5vh;
+}
+
+.main .intro {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .intro h1{
+    text-align: center;
+    font-weight: bold;
+    padding-right: 10px;
+    font-size:xx-large;
+}
+
+.main .intro h3{
+    text-align: center;
+    font-weight: bold;
+    padding-right: 10px;
+    font-size:medium;
+}
+.main .bar_search {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main .title{
+    display: flex;
+    justify-content: space-between;
+}
+.main legend{
+    margin-bottom: 6px;
+    padding-left: 2%;
+    color: rgb(0, 0, 0);
+    font-size: 5vh;
+    text-align: justify;
+}
+
+.main .title div{
+    padding: 10px;
+    align-items: center;
+
+}
+.main .bar_search .input-group button {
+    background-color: rgba(30, 30, 30, 1);
+    color: #fff;
+    border: #fff;
+}
+
+.main .table_content{
+    padding: 3px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.63);
+    border-radius: 1vh;
+}
+
+
+.main .table_content table{
+    margin: 0;
+    justify-content: space-between;
+}
